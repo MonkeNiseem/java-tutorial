@@ -27,7 +27,7 @@ public class ShoppingCart{
             System.out.println("\nYou have bought " + itemQuantity + " " + itemName + "s");
         }
         
-        System.out.println("Your total is $" + totalItemPrice);
+        System.out.printf("Your total is $%.2f", totalItemPrice);
         
         
         scanner.close();
