@@ -9,7 +9,7 @@ public class TempConverter
 		double temp = scanner.nextDouble();
 		scanner.nextLine();
 		
-        System.out.print("Convert to Celsius or Fahrenheit? (C or F): ");
+        System.out.print("Converting from Celsius or Fahrenheit? (C or F): ");
         String conversion = scanner.nextLine();
         
         if (conversion.equalsIgnoreCase("c")){
