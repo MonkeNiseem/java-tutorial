@@ -5,9 +5,13 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.next();
+        System.out.print("Enter the day of the week: ");
+        String day = scanner.nextLine();
 
-        System.out.println(name);
+        switch(day){
+            case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" -> System.out.println("It is a weekday");
+            case "Saturday", "Sunday" -> System.out.println("It is a weekend");
+            default -> System.out.println(day + " is not a day.");
+        }
     }
 }
