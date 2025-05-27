@@ -1,18 +1,16 @@
 import java.util.Scanner;
 
 public class Main {
+
+    static int x = 3; // CLASS
+
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
 
-            int number = 0;
+        int x = 1;
+        System.out.println(x);
 
-            do{
-                System.out.print("Enter a number between 1 - 10: ");
-                number = scanner.nextInt();
-            }while(number < 1 || number > 10);
-
-            System.out.println("You picked " + number);
-
-            scanner.close();
-        }
     }
+    static void doSomething(){
+        int x = 2;
+    }
+}
